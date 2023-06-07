@@ -1,0 +1,48 @@
+body{
+    background-image: url(../img/tecido-G.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    backface-visibility: 50%;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    width: auto;
+    height: 140px;
+    margin: auto;
+    
+    
+}
+.header h1{
+    color: #7373b5;
+    font-size: 40px;
+    margin: 10px;
+    padding: 15px;
+}
+.header p{
+    color: #7373b5;
+    font-size: 20px;
+    margin:15px;
+    padding-left: 10px;
+}
+.container{
+    background-color: #f0ffff;
+    width: 800px;
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
+
+.footer {
+    font-size: 18px;
+    background-color: #7373b5;
+    color: #ffffff;
+    text-align: center;
+    margin: 0px;
+    padding: 10px;
+}
+img{
+    width: 100%;
+}
